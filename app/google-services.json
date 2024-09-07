@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "907839900731",
+    "project_id": "foodtoyourtable-login",
+    "storage_bucket": "foodtoyourtable-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907839900731:android:6158dabc83316d0a23a01e",
+        "android_client_info": {
+          "package_name": "com.kranthi.foodtoyourtablelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907839900731-i1r6lnoqdound4n36ihc1ok245598ao9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kranthi.foodtoyourtablelogin",
+            "certificate_hash": "2930d5a7cb95f8ba9c99056d76dc368beb63a3e0"
+          }
+        },
+        {
+          "client_id": "907839900731-52gsk7h6on1upmtpbndrnh8n4ih11gv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_MgQ72_lWqOE7crWSW5tpaZL8_bDbgIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907839900731-52gsk7h6on1upmtpbndrnh8n4ih11gv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

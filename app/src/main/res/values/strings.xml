@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">foodtoyourtable login</string>
+    <string name="we_will_send_you_an_otp_to_the_given_mobile_number">We Will Send you an OTP to the given mobile number</string>
+    <string name="enter_your_mobile_number">Enter Your Mobile Number</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="_9898989898">9898989898</string>
+    <string name="_91">+91</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="didn_t_receive_otp">Didn\'t Receive OTP</string>
+    <string name="submit">SUBMIT</string>
+    <string name="sign_in">Sign in</string>
+    <string name="food_to_your_table">Food-to-your-Table</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="location">Location</string>
+    <string name="enter_restaurant_name">Enter Restaurant Name:</string>
+    <string name="enter_restaurant_location" />
+    <string name="enter_location">Enter Location</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="done">done</string>
+    <string name="abcd">select by list of items</string>
+    <string name="enter_table_number">Enter Table Number</string>
+</resources>

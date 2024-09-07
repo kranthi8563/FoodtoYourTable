@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_app"
+        tools:context=".Menu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/menutext"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="100dp"
+
+            android:layout_height="wrap_content"
+            android:text="Food-to-your-table"
+            android:textColor="@color/colortextfirst"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+
+        <TextView
+            android:id="@+id/welcometext"
+            android:layout_width="143dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="32dp"
+
+            android:text="WELCOME"
+            android:textColor="@color/colortextfirst"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="-150dp"
+            />
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="205dp"
+            android:layout_height="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginTop="70dp"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search Here" />
+
+        <EditText
+            android:id="@+id/table"
+
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="70dp"
+            android:popupBackground="@color/colortextfirst"
+            android:inputType="number"
+
+            android:hint="@string/enter_table_number"
+            android:textColor="@color/colortextfirst"
+            android:textSize="16sp"
+
+            />
+
+
+        <ListView
+            android:id="@+id/lv1"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="-380dp"
+            android:choiceMode="multipleChoice"
+
+            android:divider="#ad5"
+            android:dividerHeight="2dp"/>
+
+        <Button
+            android:id="@+id/orderitembutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1000dp"
+            android:layout_marginLeft="-150dp"
+            android:text="Order items"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

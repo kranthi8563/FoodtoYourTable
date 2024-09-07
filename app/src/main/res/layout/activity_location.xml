@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Location"
+    android:background="@color/color_app">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="8dp"
+        android:text="Food-to-your-table"
+        android:textColor="@color/colortextfirst"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="-300dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textColor="@color/colortextfirst"
+            android:text="Enter location:"
+
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/enter_location"
+            android:layout_width="134dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+
+            android:background="@null"
+            android:hint="@string/enter_location"
+            android:textColor="@color/colortextfirst"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colortextfirst"
+            android:layout_marginTop="40dp"
+            android:text="Select Restaurant:"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/sppiner"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:popupBackground="@color/colortextfirst"
+            android:spinnerMode="dialog" />
+
+        <Button
+            android:id="@+id/buttongetmenu"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:text="Show Menu"
+            android:background="@color/colorPrimary"/>
+
+        <ImageView
+            android:layout_width="398dp"
+            android:layout_height="349dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/templates" />
+    </LinearLayout>
+
+
+</LinearLayout>
